@@ -413,13 +413,14 @@ button{
 
 .skills__container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--mb-2-5); /* Adjust spacing between items */
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--mb-2-5); /* Adjust spacing between columns */
 }
 
 .skills__content {
-  display: flex;
-  flex-direction: column;
+  background: var(--container-color); /* Add background color if needed */
+  padding: var(--mb-2); /* Add padding if necessary */
+  border-radius: var(--radius); /* Optional: Add border-radius */
 }
 
 .skills__header {
@@ -427,12 +428,11 @@ button{
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  margin-bottom: var(--mb-1); /* Adjust spacing below headers */
+  margin-bottom: var(--mb-2);
 }
 
 .skills__title {
   font-size: var(--h3-font-size);
-  margin-right: auto;
 }
 
 .skills__icon,
@@ -444,8 +444,6 @@ button{
 .skills__icon {
   margin-right: var(--mb-0-75);
 }
-
-
 
 .skills__arrow {
   margin-left: var(--mb-0-75); /* Add some space to the right of the arrow */
