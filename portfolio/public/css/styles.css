@@ -412,7 +412,8 @@ button{
 /*==================== SKILLS ====================*/
 
 .skills__container{
-  row-gap: 1px;
+  row-gap: 0;
+  align-content: center;
 
 }
 .skills__header{
