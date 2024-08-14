@@ -413,8 +413,6 @@ button{
 
 .skills__container{
   row-gap: 0;
-  align-content: center;
-
 }
 .skills__header{
   display: flex;
