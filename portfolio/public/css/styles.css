@@ -412,7 +412,7 @@ button{
 /*==================== SKILLS ====================*/
 
 .skills__container{
-  row-gap: 0;
+  row-gap: 1px;
 
 }
 .skills__header{
