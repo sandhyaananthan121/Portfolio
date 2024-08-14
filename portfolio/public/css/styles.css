@@ -411,14 +411,15 @@ button{
 
 /*==================== SKILLS ====================*/
 
-.skills__container{
-  row-gap: 0;
+.skills__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--mb-2-5); /* Adjust spacing between items */
 }
 
 .skills__content {
-  flex: 1 1 45%; /* Adjusts width of each section */
-  min-width: 280px; /* Ensure proper sizing for small screens */
-  margin-bottom: var(--mb-2-5); /* Consistent margin between items */
+  display: flex;
+  flex-direction: column;
 }
 
 .skills__header {
@@ -426,7 +427,7 @@ button{
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  margin-bottom: var(--mb-1); /* Adjust margin for the space between headers */
+  margin-bottom: var(--mb-1); /* Adjust spacing below headers */
 }
 
 .skills__title {
@@ -443,6 +444,7 @@ button{
 .skills__icon {
   margin-right: var(--mb-0-75);
 }
+
 
 
 .skills__arrow {
