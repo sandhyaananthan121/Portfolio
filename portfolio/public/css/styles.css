@@ -478,80 +478,40 @@ button{
   background-color: var(--first-color);
 }
 
-.skills__html{
+.skills__90{
   width: 90%;
 
 }
-.skills__css{
+.skills__80{
+  width: 80%;
+  
+}
+.skills__70{
   width: 70%;
   
 }
-.skills__js{
-  width: 70%;
-  
-}
-.skills__flask{
-  width: 40%;
-  
-}
-.skills__php{
-  width: 50%;
-  
-}
-.skills__react{
-  width: 30%;
-  
-}
-.skills__bootstrap{
-  width: 50%;
-  
-}
-.skills__sql{
-  width: 70%;
-  
-}
-.skills__java{
-  width: 90%;
-  
-}
-.skills__python{
-  width: 70%;
-  
-}
-.skills__odm{
-  width: 70%;
-  
-}
-.skills__c{
+.skills__60{
   width: 60%;
   
 }
-.skills__matlab{
-  width: 40%;
-  
-}
-.skills__git{
-  width: 60%;
-  
-}
-.skills__aws{
+.skills__50{
   width: 50%;
   
 }
-.skills__jira{
+.skills__40{
+  width: 40%;
+  
+}
+.skills__30{
   width: 30%;
   
 }
-.skills__vscode{
-  width: 50%;
+.skills__20{
+  width: 20%;
   
 }
-.skills__spring{
-  width: 50%;
-  
-}
-.skills__unix{
-  width: 40%;
+.skills__10{
+  width: 10%;
   
 }
 
