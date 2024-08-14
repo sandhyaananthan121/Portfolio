@@ -414,18 +414,24 @@ button{
 .skills__container{
   row-gap: 0;
 }
+
+.skills__content {
+  flex: 1 1 45%; /* Adjusts width of each section */
+  min-width: 280px; /* Ensure proper sizing for small screens */
+  margin-bottom: var(--mb-2-5); /* Consistent margin between items */
+}
+
 .skills__header {
   display: flex;
-  align-items: center; /* Vertically align the items */
-  justify-content: space-between; /* Distribute space between elements */
-  width: 100%; /* Ensure the header takes up the full width */
-  margin-bottom: var(--mb-2-5); /* Adjust margin as needed */
+  align-items: center;
+  justify-content: space-between;
   cursor: pointer;
+  margin-bottom: var(--mb-1); /* Adjust margin for the space between headers */
 }
 
 .skills__title {
   font-size: var(--h3-font-size);
-  margin-right: auto; /* Push the title to the left */
+  margin-right: auto;
 }
 
 .skills__icon,
@@ -437,6 +443,7 @@ button{
 .skills__icon {
   margin-right: var(--mb-0-75);
 }
+
 
 .skills__arrow {
   margin-left: var(--mb-0-75); /* Add some space to the right of the arrow */
