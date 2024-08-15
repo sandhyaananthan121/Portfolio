@@ -410,39 +410,31 @@ button{
 }
 
 /*==================== SKILLS ====================*/
-.skills__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--mb-2-5); /* Adjust spacing between columns */
-}
 
-.skills__content {
-  background: var(--container-color); /* Add background color if needed */
-  padding: var(--mb-2); /* Add padding if necessary */
-}
+.skills__container{
+  row-gap: 0;
 
-.skills__header {
+}
+.skills__header{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  margin-bottom: var(--mb-2-5);
   cursor: pointer;
-  margin-bottom: var(--mb-2);
-}
-
-.skills__title {
-  font-size: var(--h3-font-size);
 }
 
 .skills__icon,
-.skills__arrow {
+.skills__arrow{
   font-size: 2rem;
   color: var(--first-color);
 }
 
-.skills__icon {
+.skills__icon{
   margin-right: var(--mb-0-75);
-}
 
+}
+.skills__title{
+  font-size: var(--h3-font-size);
+}
 .skills__arrow {
   margin-left: var(--mb-0-75); /* Add some space to the right of the arrow */
 }
