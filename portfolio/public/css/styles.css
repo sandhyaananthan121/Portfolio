@@ -605,11 +605,6 @@ button{
   text-align: center;
 }
 
-.portfolio__img{
-  width:265px;
-  border-radius: .5rem;
-  justify-self: center;
-}
 
 .portfolio__title{
   font-size: var(--h3-font-size);
