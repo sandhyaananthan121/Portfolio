@@ -596,23 +596,14 @@ button{
 
 /*==================== PORTFOLIO ====================*/
 
-.portfolio__container {
-  padding: 2rem 0; /* Adjust the padding to control spacing */
-}
+.portfolio__container{
+  overflow: initial;
 
-.portfolio__content {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  padding: 1.5rem;
+}
+.portfolio__content{
+  padding: 0 1.5rem;
   text-align: center;
 }
-
-.portfolio__data {
-  margin: 0 auto;
-  max-width: 600px; /* Adjust this based on your preference */
-}
-
 
 .portfolio__title{
   font-size: var(--h3-font-size);
