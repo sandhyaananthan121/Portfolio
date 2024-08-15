@@ -410,7 +410,6 @@ button{
 }
 
 /*==================== SKILLS ====================*/
-
 .skills__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -420,7 +419,6 @@ button{
 .skills__content {
   background: var(--container-color); /* Add background color if needed */
   padding: var(--mb-2); /* Add padding if necessary */
-  border-radius: var(--radius); /* Optional: Add border-radius */
 }
 
 .skills__header {
@@ -439,7 +437,6 @@ button{
 .skills__arrow {
   font-size: 2rem;
   color: var(--first-color);
-
 }
 
 .skills__icon {
