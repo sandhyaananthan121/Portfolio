@@ -891,7 +891,6 @@ button{
   }
   .about__container,
   .skills__container,
-  .portfolio__content,
   .contact__container,
   .footer__container{
     grid-template-columns: repeat(2 ,1fr);
@@ -1014,9 +1013,6 @@ button{
       grid-template-columns: .5fr;
     }
 
-    .portfolio__img{
-      width: 320px;
-    }
     .portfolio__content{
       align-items:center ;
     }
@@ -1063,7 +1059,7 @@ button{
   }
 
   .portfolio__content{
-    column-gap: 5rem;
+    /*column-gap: 5rem;*/
   }
 
   .swiper-portfolio-icon{
